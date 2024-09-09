@@ -1,61 +1,178 @@
 body{
-    margin:0;
-    padding:0;
-   }
-   header{
-   background-color: aqua;
-   width: 100%;
-   height: 500px;
-   padding-top: 15px;
-   display: flex;
-   flex-direction: row;
-   }
-  nav #logo_topo{
-       margin: 23px;
-       float: left;
+margin:0;
+padding:0;
+}
+header{
+background-image: url(../img/IMG-20240828-WA0001.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: aqua;
+width: 100%;
+height: 720px;
+padding-top: 15px;
+display: flex;
+flex-direction: row;
+}
 
-   } /*id*/
-   .espaco{
-       width: 30%;
-   }
-   nav{
-    background-color: black;
-       width: 50%;
-       min-width: 1200px;
-       max-width: 1400px;
-       height:125px;
-       margin: 0 auto 0 auto;
-       display: flex;
-   }
-   /*.logo_topo classe*/
-   header img {
-   height: 100px;
-   }
-   nav ul{
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 0;
-    }
-    nav ul li{
-        width: 25%;
-        list-style: none;
-        margin-right: 20px; 
-        text-align: center;
-        height: 100%;
-        transition: 0.5s;
+nav #logo_topo{
+margin: 23px;
+float: left;
+} 
+
+/*id*/
+.espaco{
+width: 30%;
+}
+
+nav{
+background-color: black;
+width: 50%;
+min-width: 1200px;
+max-width: 1400px;
+height:125px;
+margin: 0 auto 0 auto;
+}
+   
+/*.logo_topo classe*/
+header img {
+height: 100px;
+}
+
+nav ul{
+display: flex;
+flex-direction: row;
+margin: 0;
+padding: 0;
+}
+
+nav ul li{     
+list-style: none;
+margin-right: 20px; 
+text-align: center;
+height: 100%;
+transition: 0.5s;
+}
     
-    }
-    nav ul li:hover{
-        background-color: white;
-    }
-    nav ul li a{
-        font-size: 16px;
-        font-family: Montserrat, sans-serif;
-        color: orange;
-        text-decoration: none;
-        width: 100%;
-        padding: 40px 0 40px 0;
-        float: left;
-        text-align: center;
-    }
+nav ul li:hover{
+background-color: white;
+}
+    
+nav ul li a{
+padding:25px;
+font-size: 14px;
+font-family: Montserrat, sans-serif;
+color: white;
+padding: 55px 20px 55px 0px;
+float: left;
+text-align: center;
+text-transform: uppercase;
+}
+
+nav #menu_principal{
+float: right;
+}
+
+#menu_principal span{
+font-family: Montserrat, sans-serif;
+font-size: 11px;
+color: #868686;
+margin-right: 3px;
+margin-top: 60px;
+float:left;   
+}
+    
+#menu_principal li a{
+color: white;
+font-size: 14px;
+text-transform: uppercase;
+text-decoration: none;
+transition: 1s;
+}
+
+#menu_principal li a:hover{
+color: #e7a920;
+transition: 1s;
+text-decoration: line-through;
+}
+
+section{
+background-image:url(../img/IMG-20240828-WA0015.jpg);
+width: 100%;
+height: 500px;
+background-repeat: repeat-x;
+padding-top: 100px;
+}
+
+.icons{
+height:120px;
+width: 345px;
+margin: 0 auto;
+padding: 100px;
+display: flex;
+flex-direction: row;
+}
+
+.icons .icon img{
+width: 115px;
+}
+
+.txt{
+height: 100px;
+width: 100%;
+width: 850px;
+margin:0 auto;
+}
+
+.txt h6{
+font-size: 28px;
+font-weight: 300;
+width: 80%;
+display: inline-block;
+line-height: 40px;
+font-family: 'Roboto Slab', serif;
+text-align: center;
+margin: 0;
+margin-left: 95px;
+margin-top: 40px;
+}
+
+.txt2{
+height: 100px;
+width: 100%;
+width: 850px;
+margin:0 auto;
+background-color: red;
+}
+
+.txt2 span{
+color: #e7a920;
+font-size: 24px;
+text-align: center;
+font-family: Montserrat, sans-serif;
+margin-left: 400px;
+margin-bottom: 0px;
+}
+
+.txt2 h2{
+color: black;
+font-size: 85px;
+text-align: center;
+font-family: Montserrat, sans-serif;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+
+.txt2 h6{
+color: gray;
+font-size: 20px;
+text-align: center;
+font-family: Montserrat, sans-serif;
+margin: 0;
+margin-top: 0px;
+}
+    
+    /*-------------Trabalhos--------------*/
+#Trabalhos header{
+ background-color: blue;
+}
